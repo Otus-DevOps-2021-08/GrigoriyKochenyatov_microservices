@@ -2,4 +2,4 @@
 GrigoriyKochenyatov microservices repository
 
 
-Выполнено ДЗ ansible-2
+Выполнено ДЗ docker-3
