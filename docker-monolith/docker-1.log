@@ -1,0 +1,5 @@
+REPOSITORY                             TAG       IMAGE ID       CREATED              SIZE
+grigoriy_kochenyatov/ubuntu-tmp-file   latest    6cb73883f594   About a minute ago   63.1MB
+ubuntu                                 18.04     886eca19e611   8 days ago           63.1MB
+nginx                                  latest    605c77e624dd   2 weeks ago          141MB
+hello-world                            latest    feb5d9fea6a5   3 months ago         13.3kB
