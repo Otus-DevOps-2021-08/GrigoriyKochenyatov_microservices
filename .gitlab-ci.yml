@@ -23,7 +23,7 @@ build_job:
 test_unit_job:
   stage: test
   services:
-    - name: mongo:latest
+    - mongo:latest
     #- name: mongo:latest
       #alias: mongodb
   script:
