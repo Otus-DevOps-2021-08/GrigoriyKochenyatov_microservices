@@ -23,7 +23,7 @@ test_unit_job:
   stage: test
   services:
     - name: mongo:latest
-    - alias: mongodb
+      alias: mongodb
   script:
     - ruby simpletest.rb
 
