@@ -26,26 +26,26 @@ services:
           - post_db
   ui:
 #    build: ./ui
-    image: ${USERNAME1}/ui:${UI_RELEASE_VERSION}
+    image: ${USERNAME}/ui:${UI_RELEASE_VERSION}
     ports:
       - ${PUBLISH_PORT}:9292/tcp
     networks:
       - front_net
   post:
 #    build: ./post-py
-    image: ${USERNAME1}/post:${POST_RELEASE_VERSION}
+    image: ${USERNAME}/post:${POST_RELEASE_VERSION}
     networks:
       - back_net
       - front_net
   comment:
 #    build: ./comment
-    image: ${USERNAME1}/comment:${COMMENT_RELEASE_VERSION}
+    image: ${USERNAME}/comment:${COMMENT_RELEASE_VERSION}
     networks:
       - back_net
       - front_net
 
   prometheus:
-    image: ${USERNAME1}/prometheus
+    image: ${USERNAME}/prometheus
     networks:
       - back_net
       - front_net
