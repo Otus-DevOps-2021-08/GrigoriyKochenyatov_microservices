@@ -1,5 +1,5 @@
 # GrigoriyKochenyatov_microservices
-GrigoriyKochenyatov logging-1
+GrigoriyKochenyatov kubernetes-1
 
 
 Выполнено базовое ДЗ
